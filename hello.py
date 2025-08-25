@@ -19,6 +19,22 @@
 
 
 num_list=[1,2,3,4,5,1,2,3,4,5]
-num_set={1,2,3,4,5,1,2,3,4,5}#unique
+num_set={1,2,3,4,5,1,2,3,4,5}#unique unorder
 print(num_list)
 print(num_set)
+
+
+name='ubaid'
+fullname=f'my name is{name}'
+print(fullname)
+
+#Conditional statement 
+#Indentation
+age=40
+if age>18 and age<30:  
+    print('young')
+elif age>30 and age<50:
+    print("olde")
+else:
+    print('kid')     
+
