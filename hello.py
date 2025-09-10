@@ -34,7 +34,37 @@ age=40
 if age>18 and age<30:  
     print('young')
 elif age>30 and age<50:
-    print("olde")
+    print("old")
 else:
     print('kid')     
 
+#function
+# def greet(name):
+#     print(f"hello {name}") #ye function ke sath he due to indentation
+#     return 'return from function'
+# print("hello greet ") #ye nh he ye bhar he
+# result=greet('ubaid') 
+# print(result)   
+
+
+#Loop 2 types in python for,while
+
+name=['ubaid','umair','osama']
+for value in name:
+  print(value)
+
+one_to_ten=list(range(1,11))
+print(one_to_ten)
+
+number=list(range(1,11))
+for i in number:
+    print("count",i) 
+
+
+
+#while
+
+i=0
+while i<10:
+    print("while",i)
+    i+=1
